@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>love checker</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Check how strong your bond is ?</h1>
+    <div class="container-wrapper">
+      <div class="container">
+        <h2>Check your own love....</h2>
+        <div class="input-section">
+          <input type="text" placeholder="Your name" required id="your_name" />
+          <input
+            type="text"
+            placeholder="Crush's name"
+            required
+            id="crush_name"
+          />
+          <button onclick="loveChecker()">Check love ❤️</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="result-box" id="resultBox">
+      <img
+        src="./assests/couple-couple-senior.svg"
+        alt="couple svg"
+        height="50"
+      />
+      <p id="resultText"></p>
+      <button class="close">close</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
